@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    color: rgb(163, 0, 204);
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-align: center;
+    width: 80%;
+    margin: 20px auto;
+}
+
+.titles {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.titles .titles_text {
+    margin: 20px;
+}
+
+.titles .titles_text a {
+    text-decoration: none;
+    color: rgba(82, 18, 119, 0.438);
+    font-size: 14px;
+}
+
+.titles .titles_text a:hover {
+    color: rgb(82, 18, 119);
+    cursor: pointer;
+
+}
+
+p {
+    width: 75%;
+    margin: auto;
+    color: #0c0c0c;
+    line-height: 25px;
+    font-size: 15px;
+}
+
+.main {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.hijo img {
+    width: 450px;
+    transition: transform .3s;
+    border-radius: 8px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+
+}
+
+.hijo {
+    border: none;
+    margin-top: 15px;
+
+}
+
+.hijo img:hover {
+    transform: scale(1.05);
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+
+}
+
+.buttons {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+.buttons button {
+    margin: 20px 5px;
+    padding: 6px 12px;
+    border: 1px solid rgb(194, 206, 206);
+    border-radius: 10px;
+    color: rgb(152, 18, 156);
+    font-weight: bold;
+}
+
+.buttons button:hover {
+    background: rgb(152, 18, 156);
+    color: aliceblue;
+    cursor: pointer;
+}
+
+.buttons button a {
+    text-decoration: none;
+}
